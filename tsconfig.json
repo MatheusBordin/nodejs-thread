@@ -1,0 +1,13 @@
+{
+    "include": ["**/*"],
+    "exclude": ["node_modules", "dist"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "outDir": "./dist"
+    }
+}

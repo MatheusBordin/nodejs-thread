@@ -1,0 +1,21 @@
+{
+  "name": "WorkerThreads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^13.5.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
